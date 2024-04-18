@@ -1,0 +1,468 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url(../Tiles/Copie\ de\ Sans\ titre\ \(5\).png);
+}
+
+
+/* texte de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../Tiles/Default_Fond_paysage_ville_japonaise_pendant_la_nuit_avec_un_1.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    position: relative;
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: red;
+    font-size: 80px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+}
+
+.scroll-down {
+    color: red;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+}
+
+
+/* menu navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 1000px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery-icon {
+    font-size: 100px;
+    color: red;
+}
+
+.service-details {
+    font-weight: 1000;
+    width: 400px;
+    text-align: center;
+}
+
+/* Notre Projet*/
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+    color: aliceblue;
+
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 7px;
+    bottom: 0;
+}
+
+.le-concours {
+    margin: 100px;
+}
+
+.essai-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.essai-1 img {
+    width: 80%;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.image-avec-texte {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texte1 {
+    color: red;
+    font-size: 30px;
+}
+
+.texte2 {
+    color: red;
+    font-size: 30px;
+}
+
+.texte3 {
+    color: red;
+    font-size: 30px;
+}
+
+.image-avec-texte img {
+    width: 80%;
+    max-width: 900px;
+}
+
+.image-avec-texte p {
+    margin-top: 10px;
+}
+
+.cec {
+    background-color: wheat;
+}
+
+
+/* la team */
+
+.la-team {
+    margin: 100px;
+}
+
+.nom-team {
+    color: white;
+    font-size: 40px;
+}
+
+.texte-team {
+    color: red;
+    font-size: 30px;
+}
+
+.conteneur-team {
+    display: flex;
+    justify-content: center;
+}
+
+.conteneur-team img {
+    margin: 10px;
+}
+
+@media  screen and (max-width: 1345px) {
+    .conteneur-team {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.conteneur-team img:last-child {
+    margin-right: 0;
+}
+
+.team-avec-texte {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.team-avec-texte:last-child {
+    margin-right: 0;
+}
+
+.team-avec-texte img {
+    width: 300px;
+    max-width: 8000px;
+}
+
+.team-avec-texte p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* écurie */
+
+.la-ecurie {
+    margin: 100px;
+}
+
+.ecurie-texte {
+    color: red;
+    font-size: 30px;
+}
+
+.conteneur-ecurie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ecurie-avec-texte {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.ecurie-avec-texte img {
+    max-width: 100%;
+    width: 600px;
+    margin-right: 10px;
+}
+
+.ecurie-avec-texte p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1345px) {
+    .ecurie-avec-texte {
+        flex-direction: row;
+    }
+    .ecurie-avec-texte img {
+        max-width: 50%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .ecurie-avec-texte p {
+        margin-left: 10px;
+    }
+}
+
+
+/* voiture */
+    
+.project-1 {
+    background-color: red;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.le-projet {
+    margin: 100px;
+}
+
+.project-box {
+    background-size: cover;
+    background-position: center;
+    min-width: 500px;
+    height: 350px;
+    flex: 1;
+}
+
+.project1 {
+    background-image: url(../Tiles/dessin-voiture-1.png);
+}
+
+.project2 {
+    background-image: url(../Tiles/voiture-3D.JPG);
+}
+
+.project3 {
+    background-image: url(../Tiles/voiture\ usinée.JPG);
+}
+
+.project4 {
+    background-image: url(../Tiles/VU3.jpg);
+}
+
+/* sponsors */ 
+
+.sponsors-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.les-sponsors {
+    margin: 100px;
+}
+
+.sponsors-1 img {
+    width: 60%;
+    max-width: 100%;
+    margin: 50px;
+}
+
+.renault {
+    background-color: wheat;
+}
+
+.dassault {
+    background-color: wheat;
+}
+
+.intersport {
+    background-color: wheat;
+}
+
+/* formulaire de contact*/
+
+.contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+form {
+    background-color: rosybrown;
+    padding: 30px;
+    border-radius: 20px;
+    width: 1000px;
+    height: 600px;
+}
+
+form .separation{
+    width: 100%;
+    height: 1px;
+    background-color: red;
+}
+
+form .corps-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+} 
+
+form .corps-formulaire .groupe{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .corps-formulaire .gauche .groupe input{
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: red;
+    border-radius: 5px;
+}
+
+form .corps-formulaire .gauche .groupe .bebe{
+    position: absolute; 
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: red;
+}
+
+form .corps-formulaire .droite{
+    margin-left: 40px;
+}
+
+form .corps-formulaire .droite .groupe{
+    height: 100%;
+
+}
+
+form .corps-formulaire .droite .groupe textarea.message{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #dfdfdf;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 5px;
+    height: 72%;
+    resize: none
+}
+
+form .pied-formulaire button{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+form .pied-formulaire button:hover{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width:920px){
+    form .corps-formulaire .droite{
+        margin-left: 0px;
+    }
+} 
+
+form .logo{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    left: 400px;
+    top: -150px;
+}
+
+/* pied de page (footer) */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+
+footer a.cgv {
+    text-decoration: none;
+    color: red;
+}
+
+.copyright {
+    text-align: none;
+    color: red;
+}
