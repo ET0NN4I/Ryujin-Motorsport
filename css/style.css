@@ -345,12 +345,7 @@ nav.nav li a {
 /* formulaire de contact*/
 
 .contact {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
+    margin: 100px;
 }
 
 form {
@@ -369,8 +364,9 @@ form .separation{
 
 form .corps-formulaire{
     display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 } 
 
 form .corps-formulaire .groupe{
