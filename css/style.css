@@ -397,8 +397,7 @@ form .corps-formulaire .droite{
 }
 
 form .corps-formulaire .droite .groupe{
-    height: 100px;
-    width: 300px;
+    height: 100%;
 }
 
 form .corps-formulaire .droite .groupe textarea.message{
@@ -436,11 +435,11 @@ form .pied-formulaire button:hover{
 } 
 
 form .logo{
-    height: 400px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     position: relative;
     left: 400px;
-    top: -150px;
+    top: -400px;
 }
 
 /* pied de page (footer) */
