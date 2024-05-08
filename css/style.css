@@ -35,15 +35,6 @@ section.top-page {
     padding: 25px;
 }
 
-@media screen and (max-width: 480px) {
-    .top-page {
-        flex-direction : row;
-    }
-    .top-page img {
-        max-width: 50%;
-    }
-}
-
 /* page de bienvenue (landing page) */
 
 .landing-page {
