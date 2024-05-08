@@ -397,8 +397,8 @@ form .corps-formulaire .droite{
 }
 
 form .corps-formulaire .droite .groupe{
-    height: 100%;
-
+    height: 100px;
+    width: 300px;
 }
 
 form .corps-formulaire .droite .groupe textarea.message{
