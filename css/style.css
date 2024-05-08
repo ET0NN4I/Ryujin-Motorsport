@@ -16,23 +16,6 @@ body {
     background-image: url(../Tiles/Copie\ de\ Sans\ titre\ \(5\).png);
 }
 
-/* Text Page */
-
-header.header {
-    display: flex;
-    align-items: center;
-}
-
-header.header img {
-    width: 150px;
-}
-
-section.top-page {
-    background: url(../Tiles/Default_Fond_paysage_ville_japonaise_pendant_la_nuit_avec_un_1.jpg);
-    background-size: cover;
-    height: 80vh;
-    padding: 25px;
-}
 
 /* texte de page */
 
@@ -46,17 +29,11 @@ header.header img {
 }
 
 section.top-page {
+    background: url('../Tiles/Default_Fond_paysage_ville_japonaise_pendant_la_nuit_avec_un_1.jpg');
+    background-size: cover;
     height: 80vh;
     padding: 25px;
 }
-
-@media  screen and (max-width: 768px) {
-    .top-page {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 
 /* page de bienvenue (landing page) */
 
@@ -91,13 +68,6 @@ nav.nav {
     margin-left: 30px;
 }
 
-@media  screen and (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 nav.nav li a {
     color: red;
     text-decoration: none;
@@ -129,13 +99,6 @@ nav.nav li a {
     width: 400px;
     text-align: center;
     color: red;
-}
-
-@media  screen and (max-width: 768px) {
-    .services {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 /* Notre Projet*/
@@ -232,7 +195,7 @@ nav.nav li a {
     margin: 10px;
 }
 
-@media  screen and (max-width: 1345px) {
+@media  screen and (max-width: 480px) {
     .conteneur-team {
         flex-direction: column;
         align-items: center;
@@ -296,7 +259,7 @@ nav.nav li a {
     margin: 0;
 }
 
-@media screen and (max-width: 1345px) {
+@media screen and (max-width: 480px) {
     .ecurie-avec-texte {
         flex-direction: row;
     }
