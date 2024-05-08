@@ -439,7 +439,7 @@ form .logo{
     width: 200px;
     position: relative;
     left: 400px;
-    top: -400px;
+    top: 400px;
 }
 
 /* pied de page (footer) */
