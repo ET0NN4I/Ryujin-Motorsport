@@ -16,6 +16,10 @@ body {
     background-image: url(../Tiles/Copie\ de\ Sans\ titre\ \(5\).png);
 }
 
+header.herader {
+    backgroundf-image: url(../Tiles/Default_Fond_paysage_ville_japonaise/);
+    width: 1000px;
+}
 
 /* texte de page */
 
